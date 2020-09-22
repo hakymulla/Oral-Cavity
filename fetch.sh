@@ -1,3 +1,4 @@
+ #!/bin/bash
 echo 'Downloading data'
 mkdir data/;
 curl https://md-datasets-cache-zipfiles-prod.s3.eu-west-1.amazonaws.com/ftmp4cvtmb-1.zip -o data/alldata;
